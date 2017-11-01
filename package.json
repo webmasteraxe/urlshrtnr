@@ -1,0 +1,28 @@
+{
+  "name": "shortlr",
+  "version": "0.0.5",
+  "description": "",
+  "main": "shortner.js",
+  "repository": "http://github.com/coding-blocks/shorturl",
+  "scripts": {
+    "start": "node server.js",	
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "convert-radix64": "^0.2.0",
+    "express": "^4.14.0",
+    "express-force-ssl": "^0.3.2",
+    "express-ga-middleware": "^0.1.2",
+    "jquery": "^3.1.1",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.27.0",
+    "universal-analytics": "^0.4.8",
+	"supertest" : "3.0.0",
+	"should" : "13.1.3",
+	"mocha" : "4.0.1"
+  }
+}
